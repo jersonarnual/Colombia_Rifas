@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Colombia_Rifas.Common\Colombia_Rifas.Common.csproj" />
+    <ProjectReference Include="..\Colombia_Rifas.Domain\Colombia_Rifas.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,6 @@
+@Colombia_Rifas.Api_HostAddress = http://localhost:5253
+
+GET {{Colombia_Rifas.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
