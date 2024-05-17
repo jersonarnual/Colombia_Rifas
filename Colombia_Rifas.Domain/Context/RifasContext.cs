@@ -18,12 +18,10 @@ namespace Colombia_Rifas.Domain.Context
         public virtual DbSet<TipoDocumento> TipoDocumento { get; set; }
         public virtual DbSet<TipoPago> TipoPago { get; set; }
         public virtual DbSet<TipoSorteo> TipoSorteo { get; set; }
-
         public virtual DbSet<Anuncios> Anuncio { get; set; }
         public virtual DbSet<Boleto> Boleto { get; set; }
         public virtual DbSet<Ganador> Ganador { get; set; }
         public virtual DbSet<Pagos> Pago { get; set; }
-
         public virtual DbSet<Participacion> Participacion { get; set; }
         public virtual DbSet<Premio> Premio { get; set; }
         public virtual DbSet<Sorteo> Sorteo { get; set; }
